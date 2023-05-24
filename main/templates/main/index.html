@@ -1,9 +1,13 @@
 {% extends 'base.html' %}
 {% load sass_tags %}
+{% load static %}
 
 {% block style %} {%  sass_src  'main/style.scss'  %} {% endblock %}
 
 {% block content %}
-
+    <header>
+        <img src="{% static 'img/header/bg.png' %}" alt="bg">
+        <img src="{% static 'img/common/logo.svg' %}" alt="header">
+    </header>
     <h1>Hello</h1>
 {% endblock %}
