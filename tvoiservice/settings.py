@@ -104,6 +104,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 STATICFILES_FINDERS = [
     'sass_processor.finders.CssFinder',
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 ]
 
 # Internationalization
@@ -122,7 +124,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 
-STATICFILES_DIRS = ('static')
 STATIC_URL = 'static/'
 
 SASS_PROCESSOR_INCLUDE_FILE_PATTERN = r'^.+\.scss$'

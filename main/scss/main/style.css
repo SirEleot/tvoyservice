@@ -2,6 +2,10 @@
 
 h1 { font-size: 7.73994vw; }
 
-header { background-color: #4D4C4C; }
+nav { background-color: #2D2C2C; border-bottom: 0.0774vw solid white; height: 3.86997vw; display: flex; align-items: center; z-index: 3; }
+
+.container { width: 88.23529vw; margin: 0 auto; }
+
+header { min-height: 46.43963vw; -webkit-background-size: cover; background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

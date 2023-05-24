@@ -1,6 +1,15 @@
 h1{
   font-size: vw(100px);
 }
-header{
-  background-color: #4D4C4C;
+nav{
+  background-color: #2D2C2C;
+  border-bottom: vw(1px) solid white;
+  height: vw(50px);
+  display: flex;
+  align-items: center;
+  z-index: 3;
+}
+.container{
+  width: vw(1140px);
+  margin: 0 auto;
 }

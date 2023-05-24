@@ -5,9 +5,11 @@
 {% block style %} {%  sass_src  'main/style.scss'  %} {% endblock %}
 
 {% block content %}
-    <header>
-        <img src="{% static 'img/header/bg.png' %}" alt="bg">
-        <img src="{% static 'img/common/logo.svg' %}" alt="header">
+    <header style="background: center / cover url({% static 'img/header/bg.png' %}) no-repeat">
+
+        <div class="container">
+
+        </div>
     </header>
     <h1>Hello</h1>
 {% endblock %}
