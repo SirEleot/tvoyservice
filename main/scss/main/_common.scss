@@ -8,6 +8,9 @@ nav{
   display: flex;
   align-items: center;
   z-index: 3;
+  .logo{
+    height: vw(40px);
+  }
 }
 .container{
   width: vw(1140px);
