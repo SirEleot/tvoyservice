@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss",
+		"_functions.scss",
+		"_reset.scss",
+		"_common.scss"
+	],
+	"names": [],
+	"mappings": "AEAA,AAAA,CAAC,CAAA,EACG,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,EACV,UAAU,EAAE,UAAU,GACzB;;ACJD,AAAA,EAAE,CAAA,EACA,SAAS,EFCD,SAA2B,GEApC"
+}
