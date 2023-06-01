@@ -1,0 +1,15 @@
+@mixin base_button{
+  display: flex;
+  background-color: $clr_blue;
+  color: $clr_white;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: vw(18px);
+  line-height: vw(22px);
+  text-decoration: none;
+  &:hover{
+    background-color: lighten($clr_blue, 10%);
+  }
+}

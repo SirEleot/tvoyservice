@@ -1,0 +1,29 @@
+.services{
+  margin-top: $marg_sections;
+  &-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: vw(48px);
+    line-height: vw(58px);
+
+    text-align: center;
+  }
+  &-img{
+    width: vw(577px);
+    height: vw(433px);
+  }
+  &-list{
+    max-width: vw(700px);
+    min-width: vw(700px);
+    &-item{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-style: normal;
+      font-weight: 500;
+      font-size: vw(24px);
+      line-height: vw(20px);
+      margin-top: vw(10px);
+    }
+  }
+}

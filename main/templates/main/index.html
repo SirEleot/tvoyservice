@@ -1,15 +1,112 @@
 {% extends 'base.html' %}
 {% load sass_tags %}
 {% load static %}
-
-{% block style %} {%  sass_src  'main/style.scss'  %} {% endblock %}
-
+{#+37529 584 17 17    мтс#}
+{#+37544 585 17 17 #}
 {% block content %}
-    <header style="background: center / cover url({% static 'img/header/bg.png' %}) no-repeat">
-
+    <header>
         <div class="container">
-
+            <div class="flex-jcc-aic">
+                <div class="header">
+                    <h1 class="header-title">
+                        <span class="text-color-blue">Профессиональный</span> ремонт бытовой техники в <span class="text-color-blue">г. Слуцк</span>
+                    </h1>
+                    <p class="header-subtitle">
+                        Получите бесплатную консультацию по телефону прямо сейчас!
+                    </p>
+                    <a href="tel:+375295841717" class="button">Позвонить</a>
+                    <div class="flex social">
+                        <a href="#"><img  class="social-link" src="{% static "img/common/social/whatsapp.svg" %}" alt="whatsapp"></a>
+                        <a href="#"><img  class="social-link" src="{% static "img/common/social/viber.svg" %}" alt="viber"></a>
+                        <a href="#"><img  class="social-link" src="{% static "img/common/social/vk.svg" %}" alt="vk"></a>
+                    </div>
+                </div>
+                <img class="header-img" src="{% static "img/header/main_img.png" %}" alt="main image">
+            </div>
         </div>
     </header>
-    <h1>Hello</h1>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-title">
+                Мы ремонтируем все виды бытовой техники
+            </div>
+            <img src="{% static "img/about/underline.svg" %}" alt="underline" class="about-underline">
+            <div class="flex-jcsb-aic about-cards">
+                <div class="about-card flex-jcc-aic">
+                    <div><img src="{% static "img/about/card1.svg" %}" alt="card" class="about-card-img"></div>
+                    <div class="about-card-text">Более 10 лет опыта</div>
+                </div>
+                <div class="about-card flex-jcc-aic">
+                    <div><img src="{% static "img/about/card2.svg" %}" alt="card" class="about-card-img"></div>
+                    <div class="about-card-text">Гарантия до двух лет</div>
+                </div>
+                 <div class="about-card flex-jcc-aic">
+                    <div><img src="{% static "img/about/card3.svg" %}" alt="card" class="about-card-img"></div>
+                    <div class="about-card-text">Бесплатная консультация</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services-title">
+                Наши услуги
+            </div>
+            <div class="flex-jcsb-aie">
+                <div class="services-list">
+                    <div class="services-list-item">
+                        <p class="services-list-item-title">Ремонт стиральных машин</p>
+                        <p class="services-list-item-price">от 100 руб</p>
+                    </div>
+                    <div class="services-list-item">
+                        <p class="services-list-item-title">Ремонт телевизоров</p>
+                        <p class="services-list-item-price">от 100 руб</p>
+                    </div>
+                    <div class="services-list-item">
+                        <p class="services-list-item-title">Ремонт водонагревателей</p>
+                        <p class="services-list-item-price">от 100 руб</p>
+                    </div>
+                    <div class="services-list-item">
+                        <p class="services-list-item-title">Ремонт пылесосов</p>
+                        <p class="services-list-item-price">от 100 руб</p>
+                    </div>
+                    <div class="services-list-item">
+                        <p class="services-list-item-title">Ремонт микроволновых печей</p>
+                        <p class="services-list-item-price">от 100 руб</p>
+                    </div>
+                    <div class="services-list-item">
+                        <p class="services-list-item-title">Ремонт роботов пылесосов</p>
+                        <p class="services-list-item-price">от 100 руб</p>
+                    </div>
+                    <div class="services-list-item">
+                        <p class="services-list-item-title">Ремонт холодильников</p>
+                        <p class="services-list-item-price">от 100 руб</p>
+                    </div>
+                    <div class="services-list-item">
+                        <p class="services-list-item-title">Восстановление девственности</p>
+                        <p class="services-list-item-price">от 100 руб</p>
+                    </div>
+                    <div class="services-list-item">
+                        <p class="services-list-item-title">Услуги профессионального куни мастера</p>
+                        <p class="services-list-item-price">от 100 руб</p>
+                    </div>
+                    <div class="services-list-item">
+                        <p class="services-list-item-title">Вскрываем замки</p>
+                        <p class="services-list-item-price">от 100 руб</p>
+                    </div>
+                    <div class="services-list-item">
+                        <p class="services-list-item-title">Вскрываем девственность</p>
+                        <p class="services-list-item-price">от 100 руб</p>
+                    </div>
+                    <div class="services-list-item">
+                        <p class="services-list-item-title">Собутыльник на час</p>
+                        <p class="services-list-item-price">от 100 руб</p>
+                    </div>
+
+                </div>
+                <img class="services-img" src="{% static "img/services/main_image.png" %}" alt="services">
+            </div>
+
+        </div>
+    </section>
 {% endblock %}

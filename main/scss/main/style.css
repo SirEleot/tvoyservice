@@ -1,13 +1,75 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;700;900&display=swap");
+.flex { display: flex; }
 
-h1 { font-size: 7.73994vw; }
+.flex-jcc { display: flex; justify-content: center; }
 
-nav { background-color: #2D2C2C; border-bottom: 0.0774vw solid white; height: 3.86997vw; display: flex; align-items: center; z-index: 3; }
+.flex-jcc-aic { display: flex; justify-content: center; align-items: center; }
 
-nav .logo { height: 3.09598vw; }
+.flex-jcsb { display: flex; justify-content: space-between; }
 
-.container { width: 88.23529vw; margin: 0 auto; }
+.flex-jcsb-aic { display: flex; justify-content: space-between; align-items: center; }
 
-header { min-height: 46.43963vw; -webkit-background-size: cover; background-size: cover; }
+.flex-jcsb-aie { display: flex; justify-content: space-between; align-items: flex-end; }
+
+* { margin: 0; padding: 0; box-sizing: border-box; color: #181818; }
+
+body { font-family: Inter; }
+
+nav { background-color: white; border-bottom: 0.05208vw solid white; height: 5.20833vw; display: flex; align-items: center; }
+
+nav .logo { font-style: normal; font-weight: 600; font-size: 1.25vw; line-height: 1.51042vw; text-transform: uppercase; margin-right: auto; }
+
+nav .nav-link { text-decoration: none; margin-left: 1.04167vw; font-family: 'Montserrat'; font-style: normal; font-weight: 500; font-size: 1.04167vw; line-height: 1.25vw; }
+
+nav .nav-link:hover { color: #0C3BDC; }
+
+.container { width: 67.1875vw; margin: 0 auto; }
+
+.text-color-blue { color: #0C3BDC; }
+
+footer { background-color: #0C3BDC; height: 5.20833vw; margin-top: 4.6875vw; }
+
+.header { margin-top: 2.08333vw; max-width: 33.17708vw; }
+
+.header-img { max-width: 34.375vw; max-height: 22.03125vw; min-width: 34.375vw; min-height: 22.03125vw; }
+
+.header-title { font-style: normal; font-weight: 600; font-size: 2.5vw; line-height: 3.02083vw; }
+
+.header-subtitle { font-style: normal; font-weight: 500; font-size: 0.83333vw; line-height: 1.04167vw; margin: 1.04167vw 0; }
+
+.header .button { display: flex; background-color: #0C3BDC; color: #FDFDFD; justify-content: center; align-items: center; font-style: normal; font-weight: 600; font-size: 0.9375vw; line-height: 1.14583vw; text-decoration: none; width: 11.45833vw; height: 3.33333vw; }
+
+.header .button:hover { background-color: #2856f3; }
+
+.header .social { margin-top: 1.04167vw; }
+
+.header .social-link { margin-right: 0.26042vw; width: 1.875vw; height: 1.875vw; }
+
+.header .social-link:hover { transform: scale(1.1); }
+
+.about { margin-top: 4.6875vw; }
+
+.about-title { width: 36.25vw; height: 6.14583vw; font-family: 'Montserrat'; font-style: normal; font-weight: 600; font-size: 2.5vw; line-height: 3.07292vw; text-align: center; margin: 0 auto; }
+
+.about-underline { width: 15.36458vw; margin-left: 20.83333vw; }
+
+.about-cards { margin-top: 2.60417vw; }
+
+.about-card { width: 18.22917vw; height: 10.41667vw; background-color: #F4F4F4; flex-direction: column; }
+
+.about-card-img { width: 2.91667vw; height: 2.91667vw; }
+
+.about-card-text { font-style: normal; font-weight: 600; font-size: 1.25vw; line-height: 1.51042vw; }
+
+.services { margin-top: 4.6875vw; }
+
+.services-title { font-style: normal; font-weight: 600; font-size: 2.5vw; line-height: 3.02083vw; text-align: center; }
+
+.services-img { width: 30.05208vw; height: 22.55208vw; }
+
+.services-list { max-width: 36.45833vw; min-width: 36.45833vw; }
+
+.services-list-item { display: flex; justify-content: space-between; align-items: center; font-style: normal; font-weight: 500; font-size: 1.25vw; line-height: 1.04167vw; margin-top: 0.52083vw; }
 
 /*# sourceMappingURL=style.css.map */

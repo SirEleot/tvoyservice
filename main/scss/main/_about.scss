@@ -1,0 +1,38 @@
+.about{
+  margin-top: $marg_sections;
+  &-title{
+    width: vw(696px);
+    height: vw(118px);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: vw(48px);
+    line-height: vw(59px);
+    text-align: center;
+    margin: 0 auto;
+  }
+  &-underline{
+    width: vw(295px);
+    margin-left: vw(400px);
+  }
+  &-cards{
+    margin-top: vw(50px);
+  }
+  &-card{
+    width: vw(350px);
+    height: vw(200px);
+    background-color: $clr_card_bg;
+    flex-direction: column;
+    &-img{
+      width: vw(56px);
+      height: vw(56px);
+    }
+    &-text{
+      font-style: normal;
+      font-weight: 600;
+      font-size: vw(24px);
+      line-height: vw(29px);
+    }
+  }
+
+}

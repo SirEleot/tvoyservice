@@ -1,18 +1,46 @@
-h1{
-  font-size: vw(100px);
+body{
+  font-family: Inter;
 }
+
+
 nav{
-  background-color: #2D2C2C;
+  background-color: white;
   border-bottom: vw(1px) solid white;
-  height: vw(50px);
+  height: vw(100px);
   display: flex;
   align-items: center;
-  z-index: 3;
   .logo{
-    height: vw(40px);
+    font-style: normal;
+    font-weight: 600;
+    font-size: vw(24px);
+    line-height: vw(29px);
+    text-transform: uppercase;
+    margin-right: auto;
+  }
+  .nav-link{
+    text-decoration: none;
+    margin-left: $marg_links;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: vw(20px);
+    line-height: vw(24px);
+    &:hover{
+      color: $clr_blue;
+    }
   }
 }
 .container{
-  width: vw(1140px);
+  width: vw(1290px);
   margin: 0 auto;
+}
+
+.text-color-blue{
+  color: $clr_blue;
+}
+
+footer{
+  background-color: $clr_blue;
+  height: vw(100px);
+  margin-top: $marg_sections;
 }

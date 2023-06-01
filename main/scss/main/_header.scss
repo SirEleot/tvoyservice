@@ -1,5 +1,40 @@
-header{
-  min-height: vw(600px);
-  -webkit-background-size: cover;
-  background-size: cover;
+
+.header{
+  margin-top: vw(40px);
+  max-width: vw(637px);
+  &-img{
+    max-width: vw(660px);
+    max-height: vw(423px);
+    min-width: vw(660px);
+    min-height: vw(423px);
+  }
+  &-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: vw(48px);
+    line-height: vw(58px);
+  }
+  &-subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: vw(16px);
+    line-height: vw(20px);
+    margin: vw(20px) 0;
+  }
+  .button{
+    @include base_button;
+    width: vw(220px);
+    height: vw(64px);
+  }
+  .social{
+    margin-top: vw(20px);
+    &-link{
+      margin-right: vw(5px);
+      width: vw(36px);
+      height: vw(36px);
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
 }

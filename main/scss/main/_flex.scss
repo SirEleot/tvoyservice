@@ -1,0 +1,26 @@
+.flex{
+  display: flex;
+  &-jcc{
+    display: flex;
+    justify-content: center;
+    &-aic{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &-jcsb{
+    display: flex;
+    justify-content: space-between;
+    &-aic{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-aie{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+  }
+}

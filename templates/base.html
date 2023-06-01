@@ -6,17 +6,24 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block title %} Твой сервис {% endblock %}</title>
-{#    <link rel="shortcut icon" href="{% static 'main/assets/svg/ico.svg' %}" type="image/x-icon">#}
+    <link rel="shortcut icon" href="{% static 'img/common/favicon.svg' %}" type="image/x-icon">
+    <link rel="icon" href="{% static 'img/common/favicon.svg' %}" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href=" {% block style %} {% endblock %}" rel="stylesheet" type="text/css" />
-{#    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">#}
+    <link href=" {%  sass_src  'main/style.scss'  %}" rel="stylesheet" type="text/css" />
     <meta name="description" content="We create websites and branding for grow your business.">
 </head>
 
 <body>
     <nav>
         <div class="container">
-            <img class="logo" src="{% static 'img/common/logo.svg' %}" alt="header">
+            <div class="flex-jcc-aic">
+                <div class="logo">Твой<span class="text-color-blue">Сервис</span></div>
+                <a href="#" class="nav-link">Главная</a>
+                <a href="#" class="nav-link">О нас</a>
+                <a href="#" class="nav-link">Наши услуги</a>
+                <a href="#" class="nav-link">Контакты</a>
+            </div>
+
         </div>
     </nav>
 
@@ -24,8 +31,8 @@
 
         {% endblock %}
 
-    <section class="footer">
-    </section>
+    <footer>
+    </footer>
 
 </body>
 </html>
