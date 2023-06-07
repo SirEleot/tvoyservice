@@ -2,18 +2,12 @@
   display: flex;
   flex-direction: column;
 
-  .contact__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: vw(15px);
-  }
-
   &__map {
     position: relative;
     padding-left: vw(30px);
     padding-bottom: vw(30px);
     padding-top: vw(30px);
+
 
     &_bg {
       position: absolute;
@@ -23,6 +17,7 @@
       height: vw(565px);
       z-index: -1;
       background: $clr_blue;
+      padding-bottom: vw(30px);
     }
   }
 
@@ -37,30 +32,37 @@
     text-align: center;
   }
 
-  &-info {
+  &__info {
     display: flex;
-    align-items: center;
-    margin-bottom: vw(30px);
+    flex-direction: column;
+    justify-content: center;
+    margin-right: vw(15px);
 
-    &__image {
-      margin-right: vw(30px);
+    &_elem {
+      display: flex;
+      align-items: center;
+      margin-bottom: vw(30px);
 
-      img {
-        width: vw(36px);
-        height: vw(36px);
+      &_image {
+        margin-right: vw(30px);
+
+        img {
+          width: vw(36px);
+          height: vw(36px);
+        }
       }
-    }
 
-    &__details {
-      h4 {
-        font-size: vw(32px);
-        font-weight: 600;
-      }
+      &_details {
+        h4 {
+          font-size: vw(32px);
+          font-weight: 600;
+        }
 
-      a, p {
-        font-size: vw(24px);
-        font-weight: 600;
-        text-decoration: none;
+        a, p {
+          font-size: vw(24px);
+          font-weight: 600;
+          text-decoration: none;
+        }
       }
     }
   }

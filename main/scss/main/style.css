@@ -74,22 +74,22 @@ footer { background-color: #0C3BDC; height: 4.16667vw; margin-top: 4.6875vw; }
 
 .contact { display: flex; flex-direction: column; }
 
-.contact .contact__info { display: flex; flex-direction: column; justify-content: center; margin-right: 0.78125vw; }
-
 .contact__map { position: relative; padding-left: 1.5625vw; padding-bottom: 1.5625vw; padding-top: 1.5625vw; }
 
-.contact__map_bg { position: absolute; top: 0; left: 0; width: 31.25vw; height: 29.42708vw; z-index: -1; background: #0C3BDC; }
+.contact__map_bg { position: absolute; top: 0; left: 0; width: 31.25vw; height: 29.42708vw; z-index: -1; background: #0C3BDC; padding-bottom: 1.5625vw; }
 
 .contact-title { margin-top: 2.60417vw; margin-bottom: 2.60417vw; font-style: normal; font-weight: 600; font-size: 2.5vw; line-height: 3.02083vw; text-align: center; }
 
-.contact-info { display: flex; align-items: center; margin-bottom: 1.5625vw; }
+.contact__info { display: flex; flex-direction: column; justify-content: center; margin-right: 0.78125vw; }
 
-.contact-info__image { margin-right: 1.5625vw; }
+.contact__info_elem { display: flex; align-items: center; margin-bottom: 1.5625vw; }
 
-.contact-info__image img { width: 1.875vw; height: 1.875vw; }
+.contact__info_elem_image { margin-right: 1.5625vw; }
 
-.contact-info__details h4 { font-size: 1.66667vw; font-weight: 600; }
+.contact__info_elem_image img { width: 1.875vw; height: 1.875vw; }
 
-.contact-info__details a, .contact-info__details p { font-size: 1.25vw; font-weight: 600; text-decoration: none; }
+.contact__info_elem_details h4 { font-size: 1.66667vw; font-weight: 600; }
+
+.contact__info_elem_details a, .contact__info_elem_details p { font-size: 1.25vw; font-weight: 600; text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
