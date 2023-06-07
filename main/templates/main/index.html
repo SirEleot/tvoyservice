@@ -9,16 +9,19 @@
             <div class="flex-jcc-aic">
                 <div class="header">
                     <h1 class="header-title">
-                        <span class="text-color-blue">Профессиональный</span> ремонт бытовой техники в <span class="text-color-blue">г. Слуцк</span>
+                        <span class="text-color-blue">Профессиональный</span> ремонт бытовой техники в <span
+                            class="text-color-blue">г. Слуцк</span>
                     </h1>
                     <p class="header-subtitle">
                         Получите бесплатную консультацию по телефону прямо сейчас!
                     </p>
                     <a href="tel:+375295841717" class="button">Позвонить</a>
                     <div class="flex social">
-                        <a href="#"><img  class="social-link" src="{% static "img/common/social/whatsapp.svg" %}" alt="whatsapp"></a>
-                        <a href="#"><img  class="social-link" src="{% static "img/common/social/viber.svg" %}" alt="viber"></a>
-                        <a href="#"><img  class="social-link" src="{% static "img/common/social/vk.svg" %}" alt="vk"></a>
+                        <a href="#"><img class="social-link" src="{% static "img/common/social/whatsapp.svg" %}"
+                                         alt="whatsapp"></a>
+                        <a href="#"><img class="social-link" src="{% static "img/common/social/viber.svg" %}"
+                                         alt="viber"></a>
+                        <a href="#"><img class="social-link" src="{% static "img/common/social/vk.svg" %}" alt="vk"></a>
                     </div>
                 </div>
                 <img class="header-img" src="{% static "img/header/main_img.png" %}" alt="main image">
@@ -40,7 +43,7 @@
                     <div><img src="{% static "img/about/card2.svg" %}" alt="card" class="about-card-img"></div>
                     <div class="about-card-text">Гарантия до двух лет</div>
                 </div>
-                 <div class="about-card flex-jcc-aic">
+                <div class="about-card flex-jcc-aic">
                     <div><img src="{% static "img/about/card3.svg" %}" alt="card" class="about-card-img"></div>
                     <div class="about-card-text">Бесплатная консультация</div>
                 </div>
@@ -54,6 +57,10 @@
             </div>
             <div class="flex-jcsb-aie">
                 <div class="services-list">
+                    <div class="services-list-item">
+                        <p class="services-list-item-title">Диагностика входит в стоимость ремонта</p>
+                        <p class="services-list-item-price"></p>
+                    </div>
                     <div class="services-list-item">
                         <p class="services-list-item-title">Ремонт стиральных машин</p>
                         <p class="services-list-item-price">от 100 руб</p>
@@ -82,31 +89,93 @@
                         <p class="services-list-item-title">Ремонт холодильников</p>
                         <p class="services-list-item-price">от 100 руб</p>
                     </div>
-{#                    <div class="services-list-item">#}
-{#                        <p class="services-list-item-title">Восстановление девственности</p>#}
-{#                        <p class="services-list-item-price">от 100 руб</p>#}
-{#                    </div>#}
-{#                    <div class="services-list-item">#}
-{#                        <p class="services-list-item-title">Услуги профессионального куни мастера</p>#}
-{#                        <p class="services-list-item-price">от 100 руб</p>#}
-{#                    </div>#}
-{#                    <div class="services-list-item">#}
-{#                        <p class="services-list-item-title">Вскрываем замки</p>#}
-{#                        <p class="services-list-item-price">от 100 руб</p>#}
-{#                    </div>#}
-{#                    <div class="services-list-item">#}
-{#                        <p class="services-list-item-title">Вскрываем девственность</p>#}
-{#                        <p class="services-list-item-price">от 100 руб</p>#}
-{#                    </div>#}
-{#                    <div class="services-list-item">#}
-{#                        <p class="services-list-item-title">Собутыльник на час</p>#}
-{#                        <p class="services-list-item-price">от 100 руб</p>#}
-{#                    </div>#}
+                    {#                    <div class="services-list-item">#}
+                    {#                        <p class="services-list-item-title">Восстановление девственности</p>#}
+                    {#                        <p class="services-list-item-price">от 100 руб</p>#}
+                    {#                    </div>#}
+                    {#                    <div class="services-list-item">#}
+                    {#                        <p class="services-list-item-title">Услуги профессионального куни мастера</p>#}
+                    {#                        <p class="services-list-item-price">от 100 руб</p>#}
+                    {#                    </div>#}
+                    {#                    <div class="services-list-item">#}
+                    {#                        <p class="services-list-item-title">Вскрываем замки</p>#}
+                    {#                        <p class="services-list-item-price">от 100 руб</p>#}
+                    {#                    </div>#}
+                    {#                    <div class="services-list-item">#}
+                    {#                        <p class="services-list-item-title">Вскрываем девственность</p>#}
+                    {#                        <p class="services-list-item-price">от 100 руб</p>#}
+                    {#                    </div>#}
+                    {#                    <div class="services-list-item">#}
+                    {#                        <p class="services-list-item-title">Собутыльник на час</p>#}
+                    {#                        <p class="services-list-item-price">от 100 руб</p>#}
+                    {#                    </div>#}
 
                 </div>
                 <img class="services-img" src="{% static "img/services/main_image.png" %}" alt="services">
             </div>
 
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-title">
+                Контакты
+            </div>
+
+            <div class="contact">
+                <div class="flex-jcsb">
+                    <div class="contact__map">
+                        <script type="text/javascript"
+                                charset="utf-8"
+                                async
+                                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A96ae71b63ebf8af7304f4065409c8c3490ce677584eb08ea396cd52752177ebe&amp;width=600&amp;height=400&amp;lang=ru_RU&amp;scroll=true">
+                        </script>
+                        <div class="contact__map_bg">
+                        </div>
+                    </div>
+                    <div class="contact__info">
+                        <div class="contact-info">
+                            <div class="contact-info__image">
+                                <img class="contact-img" src="{% static "img/contact/mobile.svg" %}" alt="mobile">
+                            </div>
+                            <div class="contact-info__details">
+                                <h4>Телефон</h4>
+                                <a href="tel:+375 29 142 09 08">+375 29 142 09 08</a>
+                                <br>
+                                <a href="tel:+375 29 142 09 09">+375 29 142 09 09</a>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-info__image">
+                                <img class="contact-img" src="{% static "img/contact/mail.svg" %}" alt="mail">
+                            </div>
+                            <div class="contact-info__details">
+                                <h4>Почта:</h4>
+                                <a href="mailto:помощь@твойсервис.бу">помощь@твойсервис.бу</a>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-info__image">
+                                <img class="contact-img" src="{% static "img/contact/clock.svg" %}" alt="clock">
+                            </div>
+                            <div class="contact-info__details">
+                                <h4>График работы:</h4>
+                                <p>Без выходных</p>
+                                <p>09:00 - 21:00</p>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-info__image">
+                                <img class="contact-img" src="{% static "img/contact/map.svg" %}" alt="map">
+                            </div>
+                            <div class="contact-info__details">
+                                <h4>Адрес:</h4>
+                                <p>г.Слуцк, улица Ленина, д.160</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 {% endblock %}

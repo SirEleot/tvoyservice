@@ -1,15 +1,16 @@
-body{
+body {
   font-family: Inter;
 }
 
 
-nav{
+nav {
   background-color: white;
   border-bottom: vw(1px) solid white;
   height: vw(100px);
   display: flex;
   align-items: center;
-  .logo{
+
+  .logo {
     font-style: normal;
     font-weight: 600;
     font-size: vw(24px);
@@ -17,7 +18,8 @@ nav{
     text-transform: uppercase;
     margin-right: auto;
   }
-  .nav-link{
+
+  .nav-link {
     text-decoration: none;
     margin-left: $marg_links;
     font-family: 'Montserrat';
@@ -25,22 +27,24 @@ nav{
     font-weight: 500;
     font-size: vw(20px);
     line-height: vw(24px);
-    &:hover{
+
+    &:hover {
       color: $clr_blue;
     }
   }
 }
-.container{
+
+.container {
   width: vw(1290px);
   margin: 0 auto;
 }
 
-.text-color-blue{
+.text-color-blue {
   color: $clr_blue;
 }
 
-footer{
+footer {
   background-color: $clr_blue;
-  height: vw(100px);
+  height: vw(80px);
   margin-top: $marg_sections;
 }
