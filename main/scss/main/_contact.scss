@@ -14,7 +14,7 @@
       top: 0;
       left: 0;
       width: vw(600px);
-      height: vw(565px);
+      height: vw(465px);
       z-index: -1;
       background: $clr_blue;
       padding-bottom: vw(30px);
@@ -68,7 +68,7 @@
   }
 }
 
-.ymaps3x0--map, iframe{
+.ymaps3x0--map, iframe {
   width: vw(600px) !important;
   height: vw(400px) !important;
 }

@@ -76,7 +76,7 @@ footer { background-color: #0C3BDC; height: 4.16667vw; margin-top: 4.6875vw; }
 
 .contact__map { position: relative; padding-left: 1.5625vw; padding-bottom: 1.5625vw; padding-top: 1.5625vw; }
 
-.contact__map_bg { position: absolute; top: 0; left: 0; width: 31.25vw; height: 29.42708vw; z-index: -1; background: #0C3BDC; padding-bottom: 1.5625vw; }
+.contact__map_bg { position: absolute; top: 0; left: 0; width: 31.25vw; height: 24.21875vw; z-index: -1; background: #0C3BDC; padding-bottom: 1.5625vw; }
 
 .contact-title { margin-top: 2.60417vw; margin-bottom: 2.60417vw; font-style: normal; font-weight: 600; font-size: 2.5vw; line-height: 3.02083vw; text-align: center; }
 
