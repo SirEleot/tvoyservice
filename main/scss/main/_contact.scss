@@ -67,3 +67,8 @@
     }
   }
 }
+
+.ymaps3x0--map, iframe{
+  width: vw(600px) !important;
+  height: vw(400px) !important;
+}
