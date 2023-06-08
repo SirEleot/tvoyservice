@@ -92,4 +92,6 @@ footer { background-color: #0C3BDC; height: 4.16667vw; margin-top: 4.6875vw; }
 
 .contact-info__details a, .contact-info__details p { font-size: 1.25vw; font-weight: 600; text-decoration: none; }
 
+.ymaps3x0--map, iframe { width: 31.25vw !important; height: 20.83333vw !important; }
+
 /*# sourceMappingURL=style.css.map */
